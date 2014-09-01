@@ -21,6 +21,7 @@
 		EDE0E3DC19B4374D007C7514 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE0E3BE19B4374D007C7514 /* UIKit.framework */; };
 		EDE0E3E419B4374E007C7514 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDE0E3E219B4374E007C7514 /* InfoPlist.strings */; };
 		EDE0E3E619B4374E007C7514 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE0E3E519B4374E007C7514 /* Git_TestTests.m */; };
+		EDE0E3F119B43A79007C7514 /* AEGGittest.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE0E3F019B43A79007C7514 /* AEGGittest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EDE0E3E119B4374E007C7514 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		EDE0E3E319B4374E007C7514 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EDE0E3E519B4374E007C7514 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		EDE0E3EF19B43A79007C7514 /* AEGGittest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEGGittest.h; sourceTree = "<group>"; };
+		EDE0E3F019B43A79007C7514 /* AEGGittest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEGGittest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				EDE0E3E519B4374E007C7514 /* Git_TestTests.m */,
+				EDE0E3EF19B43A79007C7514 /* AEGGittest.h */,
+				EDE0E3F019B43A79007C7514 /* AEGGittest.m */,
 				EDE0E3E019B4374E007C7514 /* Supporting Files */,
 			);
 			path = "Git TestTests";
@@ -260,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE0E3F119B43A79007C7514 /* AEGGittest.m in Sources */,
 				EDE0E3E619B4374E007C7514 /* Git_TestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
